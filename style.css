@@ -1,0 +1,464 @@
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+html{
+   font-size: 62.5%;
+}
+body{
+   display:flex;
+   flex-direction: column;
+   background-image: url(./images/background.jpg);
+}
+.cabeza-brazos{
+   display:flex;
+   justify-content: center;
+}
+.piernas{
+   display:flex;
+   justify-content: center;
+}
+
+
+/*BRAZO DERECHO  */
+.primer-fondo-brazo_derecho{
+   display:flex;
+   justify-content: center;
+   background-color: #5e5958;
+   width: 28rem;
+   min-height: 40rem;
+   box-sizing: border-box;
+   margin: 0.5rem 0.5rem;
+}
+.segundo-fondo-brazo_derecho{
+   display:flex;
+   align-items: center;
+   background-color: #b99a3c;
+   width: 26rem;
+   min-height: 37rem;
+   margin: auto 0;
+   flex-direction: column;
+}
+.main-brazo_derecho > div{
+   border: #ab9b95 outset;
+   overflow: hidden;
+   margin: 0.5rem 0;
+}
+.titulo-brazo_derecho, .icono-oscuridad-brazo_derecho{
+   margin: 0.5rem 0;
+}
+.titulo-brazo_derecho{
+   float: left;
+   font-size: 1.3rem;
+   margin-right: 0.1rem;
+}
+.icono-oscuridad-brazo_derecho{
+   width: 2rem;
+   height: 2rem;
+   float: right;
+   padding-right: 0.1rem;
+}
+.icono-nivel-brazo_derecho{
+   align-self: flex-end;
+   margin-right: 1.5rem;
+}
+.imagen-brazo_derecho{
+   height: 21.5rem;
+   width: 21.5rem;
+   margin: 0.5rem;
+   margin-bottom: 0;
+   border: #5e5958 outset 0.3rem;
+}
+.num-serie-brazo_derecho{
+   align-self: flex-end;
+   margin: 0 2.3rem;
+}
+.descripcion-brazo_derecho{
+   border: #eadf71 0.3rem outset;
+   margin: 0 0.7rem;
+   background-color: #dadabf;
+}
+.descripcion-brazo_derecho p{
+   font-size: 0.9rem;
+}
+.descripcion-brazo_derecho h4:last-child{
+   border-top: black solid 0.1em;
+   text-align: end;
+   margin: 0 0.3rem;
+}
+.descripcion-brazo_derecho h4:first-child{
+   margin: 0.2rem;
+}
+.descripcion-brazo_derecho p{
+   margin: 0 0.3rem;
+}
+.footer-brazo_derecho{
+   display: flex;
+   font-size: 0.8rem;
+   margin: 0 0.5rem;
+}
+.footer-brazo_derecho p:first-child{
+   align-self: flex-start;
+   margin-right: 3.5rem;
+}
+.footer-brazo_derecho p:last-child{
+   align-self: flex-end;
+   margin-left: 3.5rem;
+}
+
+
+/* CABEZA */
+.primer-fondo-cabeza{
+   display:flex;
+   justify-content: center;
+   background-color: #5e5958;
+   width: 28rem;
+   min-height: 40rem;
+   box-sizing: border-box;
+   margin: 0.5rem 0.5rem;
+}
+.segundo-fondo-cabeza{
+   display:flex;
+   align-items: center;
+   background-color: #9b7360;
+   width: 26rem;
+   min-height: 37rem;
+   margin: auto 0;
+   flex-direction: column;
+}
+.main-cabeza > div{
+   border: #ab9b95 outset;
+   margin: 0.5rem;
+   overflow: hidden;
+}
+.titulo-cabeza{
+   float: left;
+   font-size: 1.7rem;
+}
+.icono-oscuridad-cabeza{
+   width: 2rem;
+   height: 2rem;
+   float: right;
+}
+.titulo-cabeza, .icono-oscuridad-cabeza{
+   margin: 0.5rem;
+}
+.icono-nivel-cabeza{
+   align-self: flex-end;
+   margin-right: 1.5rem;
+}
+.imagen-cabeza{
+   height: 21.5rem;
+   width: 21.5rem;
+   margin: 0.5rem;
+   margin-bottom: 0;
+   border: #5e5958 outset 0.3rem;
+}
+.num-serie-cabeza{
+   /* display: flex; */
+   align-self: flex-end;
+   margin: 0 2.3rem;
+}
+.descripcion-cabeza{
+   border: #ab9b95 0.3rem outset;
+   margin: 0 0.7rem;
+   background-color: #d1beb7;
+}
+.descripcion-cabeza p{
+   font-size: 0.9rem;
+}
+.descripcion-cabeza h4:last-child{
+   border-top: black solid 0.1em;
+   text-align: end;
+   margin: 0 0.3rem;
+}
+.descripcion-cabeza h4:first-child{
+   margin: 0.2rem;
+}
+.descripcion-cabeza p{
+   margin: 0 0.3rem;
+}
+.footer-cabeza{
+   display: flex;
+   font-size: 0.8rem;
+   margin: 0 0.5rem;
+}
+.footer-cabeza p:first-child{
+   align-self: flex-start;
+   margin-right: 3.5rem;
+}
+.footer-cabeza p:last-child{
+   align-self: flex-end;
+   margin-left: 3.5rem;
+}
+
+
+
+
+/* BRAZO IZQUIERDO */
+/* .brazo-zquierdo{
+   margin: 1.5rem 1rem;
+} */
+.primer-fondo-brazo_izq{
+   display:flex;
+   justify-content: center;
+   background-color: #5e5958;
+   width: 28rem;
+   min-height: 40rem;
+   box-sizing: border-box;
+   margin: 0.5rem 0.5rem;
+}
+.segundo-fondo-brazo_izq{
+   display:flex;
+   align-items: center;
+   background-color: #b99a3c;
+   width: 26rem;
+   min-height: 37rem;
+   margin: auto 0;
+   flex-direction: column;
+}
+.main-brazo_izq > div{
+   border: #ab9b95 outset;
+   margin: 0.5rem 0;
+   overflow: hidden;
+}
+.titulo-brazo_izq, .icono-oscuridad-brazo_izq{
+   margin: 0.5rem 0;
+}
+.titulo-brazo_izq{
+   float: left;
+   font-size: 1.24rem;
+   margin-right: 0.1rem;
+}
+.icono-oscuridad-brazo_izq{
+   width: 2rem;
+   height: 2rem;
+   float: right;
+   padding-right: 0.1rem;
+}
+.icono-nivel-brazo_izq{
+   align-self: flex-end;
+   margin-right: 1.5rem;
+}
+.imagen-brazo_izq{
+   height: 21.5rem;
+   width: 21.5rem;
+   margin: 0.5rem;
+   margin-bottom: 0;
+   border: #5e5958 outset 0.3rem;
+}
+.num-serie-brazo_izq{
+   align-self: flex-end;
+   margin: 0 2.3rem;
+}
+.descripcion-brazo_izq{
+   border: #eadf71 0.3rem outset;
+   margin: 0 0.7rem;
+   background-color: #dadabf;
+}
+.descripcion-brazo_izq p{
+   font-size: 0.9rem;
+}
+.descripcion-brazo_izq h4:last-child{
+   border-top: black solid 0.1em;
+   text-align: end;
+   margin: 0 0.3rem;
+}
+.descripcion-brazo_izq h4:first-child{
+   margin: 0.2rem;
+}
+.descripcion-brazo_izq p{
+   margin: 0 0.3rem;
+}
+.footer-brazo_izq{
+   display: flex;
+   font-size: 0.8rem;
+   margin: 0 0.5rem;
+}
+.footer-brazo_izq p:first-child{
+   align-self: flex-start;
+   margin-right: 3.5rem;
+}
+.footer-brazo_izq p:last-child{
+   align-self: flex-end;
+   margin-left: 3.5rem;
+}
+
+
+
+/* PIERNA DERECHA */
+.primer-fondo-pierna_derecha{
+   display:flex;
+   justify-content: center;
+   background-color: #5e5958;
+   width: 28rem;
+   min-height: 40rem;
+   box-sizing: border-box;
+   margin: 0.5rem 0.5rem;
+}
+.segundo-fondo-pierna_derecha{
+   display:flex;
+   align-items: center;
+   background-color: #b99a3c;
+   width: 26rem;
+   min-height: 37rem;
+   margin: auto 0;
+   flex-direction: column;
+}
+.main-pierna_derecha > div{
+   border: #ab9b95 outset;
+   margin: 0.5rem 0;
+   overflow: hidden;
+}
+.titulo-pierna_derecha, .icono-oscuridad-pierna_derecha{
+   margin: 0.5rem 0;
+}
+.titulo-pierna_derecha{
+   float: left;
+   font-size: 1.3rem;
+   margin-right: 0.1rem;
+}
+.icono-oscuridad-pierna_derecha{
+   width: 2rem;
+   height: 2rem;
+   float: right;
+   padding-right: 0.1rem;
+}
+.icono-nivel-pierna_derecha{
+   align-self: flex-end;
+   margin-right: 1.5rem;
+}
+.imagen-pierna_derecha{
+   height: 21.5rem;
+   width: 21.5rem;
+   margin: 0.5rem;
+   margin-bottom: 0;
+   border: #5e5958 outset 0.3rem;
+}
+.num-serie-pierna_derecha{
+   align-self: flex-end;
+   margin: 0 2.3rem;
+}
+.descripcion-pierna_derecha{
+   border: #eadf71 0.3rem outset;
+   margin: 0 0.7rem;
+   background-color: #dadabf;
+}
+.descripcion-pierna_derecha p{
+   font-size: 0.9rem;
+}
+.descripcion-pierna_derecha h4:last-child{
+   border-top: black solid 0.1em;
+   text-align: end;
+   margin: 0 0.3rem;
+}
+.descripcion-pierna_derecha h4:first-child{
+   margin: 0.2rem;
+}
+.descripcion-pierna_derecha p{
+   margin: 0 0.3rem;
+}
+.footer-pierna_derecha{
+   display: flex;
+   font-size: 0.8rem;
+   margin: 0 0.5rem;
+}
+.footer-pierna_derecha p:first-child{
+   align-self: flex-start;
+   margin-right: 3.5rem;
+}
+.footer-pierna_derecha p:last-child{
+   align-self: flex-end;
+   margin-left: 3.5rem;
+}
+
+
+
+
+/* PIERNA IZQUIERDA */
+.primer-fondo-pierna_izq{
+   display:flex;
+   justify-content: center;
+   background-color: #5e5958;
+   width: 28rem;
+   min-height: 40rem;
+   box-sizing: border-box;
+   margin: 0.5rem 0.5rem;
+}
+.segundo-fondo-pierna_izq{
+   display:flex;
+   align-items: center;
+   background-color: #b99a3c;
+   width: 26rem;
+   min-height: 37rem;
+   margin: auto 0;
+   flex-direction: column;
+}
+.main-pierna_izq > div{
+   border: #ab9b95 outset;
+   margin: 0.5rem 0;
+   overflow: hidden;
+}
+.titulo-pierna_izq, .icono-oscuridad-pierna_izq{
+   margin: 0.5rem 0;
+}
+.titulo-pierna_izq{
+   float: left;
+   font-size: 1.25rem;
+   margin-right: 0.1rem;
+}
+.icono-oscuridad-pierna_izq{
+   width: 2rem;
+   height: 2rem;
+   float: right;
+   padding-right: 0.1rem;
+}
+.icono-nivel-pierna_izq{
+   align-self: flex-end;
+   margin-right: 1.5rem;
+}
+.imagen-pierna_izq{
+   height: 21.5rem;
+   width: 21.5rem;
+   margin: 0.5rem;
+   margin-bottom: 0;
+   border: #5e5958 outset 0.3rem;
+}
+.num-serie-pierna_izq{
+   /* display: flex; */
+   align-self: flex-end;
+   margin: 0 2.3rem;
+}
+.descripcion-pierna_izq{
+   border: #eadf71 0.3rem outset;
+   margin: 0 0.7rem;
+   background-color: #dadabf;
+}
+.descripcion-pierna_izq p{
+   font-size: 0.9rem;
+}
+.descripcion-pierna_izq h4:last-child{
+   border-top: black solid 0.1em;
+   text-align: end;
+   margin: 0 0.3rem;
+}
+.descripcion-pierna_izq h4:first-child{
+   margin: 0.2rem;
+}
+.descripcion-pierna_izq p{
+   margin: 0 0.3rem;
+}
+.footer-pierna_izq{
+   display: flex;
+   font-size: 0.8rem;
+   margin: 0 0.5rem;
+}
+.footer-pierna_izq p:first-child{
+   align-self: flex-start;
+   margin-right: 3.5rem;
+}
+.footer-pierna_izq p:last-child{
+   align-self: flex-end;
+   margin-left: 3.5rem;
+}
